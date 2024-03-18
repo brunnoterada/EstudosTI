@@ -1,4 +1,4 @@
-Esse é um projeto de testes, onde estamos desenvolvendo uma app de jogos/aposta
+Esse é um projeto de testes, onde estamos desenvolvendo uma app de jogos/aposta/bet
 
 ## Getting Started
 
