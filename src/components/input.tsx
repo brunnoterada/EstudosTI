@@ -5,11 +5,12 @@ type InputProps = React.ComponentProps<'input'> & {
   label: string
 }
 
-const Input = ({ label, id }: InputProps) => {
+const Input = ({ label, id, ...props }: InputProps) => {
   return (
-    <div className='d-flex flex-column gap-2 mb-3'>
-      <label htmlFor={id}>{label}</label>
-      <input id={id} />
+    <div className='mb-3'>
+      <label className='form-label' htmlFor={id}>{label}</label>
+      <input className='form-control' id={id} {...props} />
+      <div className='form-text'></div>
     </div>
   )
 }
